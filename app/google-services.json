@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "53319846049",
+    "project_id": "my-maps-1289"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53319846049:android:c144ff1aa2c0edd2",
+        "android_client_info": {
+          "package_name": "com.example.admin.loginandregistration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMP2yeT3gGonoPlfxMFjVztfEtUj8jqRU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53319846049:android:ca2ff310b13f8952",
+        "android_client_info": {
+          "package_name": "com.example.admin.gcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMP2yeT3gGonoPlfxMFjVztfEtUj8jqRU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53319846049:android:6708f880a480ab35",
+        "android_client_info": {
+          "package_name": "com.sportsHub.gcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMP2yeT3gGonoPlfxMFjVztfEtUj8jqRU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

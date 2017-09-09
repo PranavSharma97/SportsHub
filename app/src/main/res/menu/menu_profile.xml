@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/invite"
+        android:title="Invite"
+        app:showAsAction="always"
+        android:onClick="saveChanges"/>
+
+    <item
+        android:id="@+id/accept"
+        android:title="Accept"
+        app:showAsAction="always"
+        android:onClick="saveChanges"/>
+
+    <item
+        android:id="@+id/decline"
+        android:title="Decline"
+        app:showAsAction="always"
+        android:onClick="saveChanges"/>
+
+</menu>

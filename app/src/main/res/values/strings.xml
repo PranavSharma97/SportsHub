@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LoginAndRegistration</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="spinner_title">Select Gender</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="err_msg_name">Enter full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="title_activity_chat_room_discussion">ChatRoomDiscussionActivity</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_chat_room">ChatRoomActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sms">SmsActivity</string>
+    <string name="msg_enter_mobile">Enter your mobile number to get started!</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_next">NEXT</string>
+    <string name="msg_sit_back">We Will now verify your mobile number</string>
+    <string name="msg_manual_otp">Please Enter the OTP below (received via SMS)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+
+</resources>

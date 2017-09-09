@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView android:id="@+id/imageDownloaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:src="@drawable/basketball2noun"/>
+
+    <TextView android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_margin="10dp"/>
+
+    <TextView android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Username :"/>
+
+    <TextView android:id="@+id/gender"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender :"/>
+
+    <TextView android:id="@+id/age"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age :"/>
+
+    <TextView android:id="@+id/mainSport"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age :"/>
+
+    <TextView android:id="@+id/secondarySports"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age :"/>
+
+    <TextView android:id="@+id/contact_no"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:autoLink="phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact No :"/>
+
+    <TextView android:id="@+id/status"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age :"/>
+
+    <Button
+        android:id="@+id/btnInvite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_logut_bg"
+        android:text="Invite"
+        android:onClick="inviteUser"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView android:id="@+id/alreadyInvited"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Invited"
+        android:layout_gravity="right"
+        android:visibility="gone"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:id="@+id/acceptDeclineLayout"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_logut_bg"
+        android:text="Accept"
+        android:onClick="acceptInvitation"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+        <TextView android:id="@+id/invitationAccepted"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invitation Accepted"
+            android:layout_gravity="right"
+            android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnDecline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_logut_bg"
+        android:text="Decline"
+        android:onClick="declineInvitation"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+        <TextView android:id="@+id/invitationDeclined"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invitation Declined"
+            android:layout_gravity="right"
+            android:visibility="gone"/>
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
